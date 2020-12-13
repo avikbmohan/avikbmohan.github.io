@@ -8,6 +8,21 @@
   <meta name="description" content="avik.ai">
   <meta name="author" content="avik">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <style>
+    .parallax {
+    /* The image used */
+    background-image: url("bear.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  </style>
 </head>
 
 <body style="background-color:#3A150D;">
@@ -21,21 +36,6 @@
   <button type="button"
   onclick="document.getElementById('demo').innerHTML = Date()">
   Click me to display Date and Time.</button>
-  <br><br>
-    
-    .parallax {
-  /* The image used */
-  background-image: url("bear.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
     
 </body>
 </html>
