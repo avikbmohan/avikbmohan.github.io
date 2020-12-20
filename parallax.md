@@ -20,7 +20,7 @@
 </head>
 <body>
 
-<p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+<p>Scroll Up and Down this page to see the parallax scrolling effect. MD.</p>
 
 <div class="parallax"></div>
 
